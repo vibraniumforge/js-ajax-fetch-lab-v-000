@@ -3,7 +3,7 @@ function getToken() {
 
 //comment this out for the tests. "" only for tests
 
-  return "" ;
+  return "cc9344e74607901d194faad0c45b7373221fbbed " ;
   // return "";
 }
 

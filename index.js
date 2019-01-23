@@ -1,7 +1,5 @@
-
+const user = "vibraniumforge";
 function getToken() {
-  //change to your token to run in browser, but set
-  //back to '' before committing so all tests pass
 
 //comment this out for the tests. "" only for tests
 
@@ -23,7 +21,8 @@ function forkRepo() {
 
 function showResults(json) {
   //use this function to display the results from forking via the API
-    document.getElementById("#results").html = `<a href="json.html_url">${json.html_url}</a>`
+    document.getElementById("#results").html = 
+    `<a href="json.html_url">${json.html_url}</a>`
 }
 
 function createIssue() {
